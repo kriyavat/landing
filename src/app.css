@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-handlee: "Handlee", cursive;
+}
+
+@source "./src/**/*.{html,js,svelte,ts}";
