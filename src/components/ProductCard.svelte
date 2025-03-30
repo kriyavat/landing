@@ -8,11 +8,10 @@
 
 <a {href} class="group flex items-center gap-5 rounded-lg p-2">
 	<!-- icon -->
-
 	<div
-		class="flex aspect-square h-[88px] w-[88px] items-center justify-center rounded-lg bg-neutral-100 group-hover:bg-neutral-200"
+		class="flex aspect-square h-[88px] w-[88px] items-center justify-center rounded-2xl bg-gradient-to-br from-purple-600 to-blue-600"
 	>
-		<!-- <img src={imageUrl} alt={title} class="h-48 w-full rounded-md object-cover" /> -->
+		<img src={imageUrl} alt={title} class="h-[62px] w-[62px]" />
 	</div>
 	<!-- title, description, price -->
 	<div class="flex flex-col gap-2">

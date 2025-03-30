@@ -6,8 +6,8 @@
 			title: 'Peakaboo',
 			description: 'Preview your Mac camera in a click',
 			price: 'Free Forever',
-			imageUrl: '/images/peakaboo.jpg',
-			href: 'https://peakaboo.kriyavat.com'
+			imageUrl: '/products/peakaboo.svg',
+			href: '/peakaboo'
 		}
 	];
 </script>
@@ -16,7 +16,7 @@
 	<title>Kriyāvat Labs</title>
 </svelte:head>
 
-<div class="max-w-7xl px-4 py-8">
+<div class="max-w-5xl px-4 py-8">
 	<h1 class="text-2xl font-semibold">Kriyāvat Labs</h1>
 	<p class="text-base text-neutral-500">/'kriː.jɑː.vʌt/ - Sanskrit word for "to create"</p>
 	<div class="pt-5">
@@ -25,6 +25,9 @@
 			Your go-to SaaS tools, distilled to just the core features that matter. One-time payment.
 		</p>
 
+		<div class="pt-10 pb-5">
+			<h2 class="text-xl font-semibold">Explore apps</h2>
+		</div>
 		<div class="grid grid-cols-2 gap-5">
 			{#each products as product}
 				<ProductCard {...product} />
