@@ -7,14 +7,16 @@
 			description: 'Preview your Mac camera in a click',
 			price: 'Free Forever',
 			imageUrl: '/products/peakaboo.png',
-			href: '/peakaboo'
+			href: '/peakaboo',
+			isLaunched: true
 		},
 		{
 			title: 'Ditto',
 			description: 'Ultimate clipboard manager. Copy paste multiple items at once.',
 			price: 'Free Forever',
 			imageUrl: '/products/ditto.png',
-			href: '/ditto'
+			href: '/ditto',
+			isLaunched: false
 		}
 	];
 </script>

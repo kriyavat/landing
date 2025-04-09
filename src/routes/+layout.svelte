@@ -1,17 +1,19 @@
 <script lang="ts">
 	import '../app.css';
+	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
+	import { pageview } from '$lib/gtag';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
-</script>
 
-<svelte:head>
-	<!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap"
-		rel="stylesheet"
-	/> -->
-</svelte:head>
+	// Track page views
+	$effect(() => {
+		if (browser) {
+			pageview($page.url.pathname);
+		}
+	});
+</script>
 
 <main class="antialiased">
 	{@render children()}
