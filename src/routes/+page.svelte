@@ -56,6 +56,13 @@
 			We are actively working towards building ai agents to automate all your daily tasks.
 		</p>
 	</div>
+
+	<div class="mt-20">
+		<a href="/blog" class="group flex w-fit flex-col gap-1 text-base">
+			<h5 class="font-semibold group-hover:text-blue-500">Blog</h5>
+			<p class="text-sm text-neutral-500">Thoughts and insights from Kriyavat Labs</p>
+		</a>
+	</div>
 </div>
 
 <style lang="postcss">

@@ -4,6 +4,7 @@
 	export let price: string;
 	export let imageUrl: string;
 	export let href: string;
+	export let isLaunched: boolean;
 </script>
 
 <a {href} class="group flex cursor-pointer items-center justify-between">
@@ -12,11 +13,22 @@
 
 		<div class="flex flex-col gap-1">
 			<div>
-				<h3 class="text-lg font-semibold">{title}</h3>
+				<div class="flex items-center gap-2">
+					<h3 class="text-lg font-semibold">{title}</h3>
+					{#if !isLaunched}
+						<span
+							class="rounded bg-blue-100 px-2 py-0.5 text-xs font-medium tracking-tight text-blue-800"
+						>
+							Coming Soon
+						</span>
+					{/if}
+				</div>
 				<p class="text-sm text-neutral-600">{description}</p>
 			</div>
 			<div class="flex items-center justify-between">
-				<span class="text-sx font-semibold">{price}</span>
+				{#if isLaunched}
+					<span class="text-sx font-semibold">{price}</span>
+				{/if}
 			</div>
 		</div>
 	</div>
