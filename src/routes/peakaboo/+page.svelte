@@ -18,8 +18,7 @@
 			</div>
 			<div>
 				<button class="rounded-full bg-blue-500 px-4 py-2 font-semibold text-white">
-					<a href="https://github.com/kriyavat-labs/peakaboo/releases/latest" target="_blank"
-						>Download</a
+					<a href="https://github.com/kriyavat/peakaboo/releases/latest" target="_blank">Download</a
 					>
 				</button>
 			</div>

@@ -18,7 +18,7 @@
 			<!-- Right navigation -->
 			<div class="flex items-center space-x-6">
 				<a
-					href="https://github.com/kriyavat-labs/peakaboo"
+					href="https://github.com/kriyavat"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-gray-600 hover:text-gray-900"
