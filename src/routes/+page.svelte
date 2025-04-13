@@ -17,6 +17,14 @@
 			imageUrl: '/products/ditto.png',
 			href: '/ditto',
 			isLaunched: false
+		},
+		{
+			title: 'Learnn',
+			description: 'One Place to Learn Anything',
+			price: 'Free Forever',
+			imageUrl: '',
+			href: 'https://learnn.cc',
+			isLaunched: false
 		}
 	];
 </script>
