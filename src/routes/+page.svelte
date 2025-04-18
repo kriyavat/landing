@@ -22,7 +22,7 @@
 			title: 'Learnn',
 			description: 'One Place to Learn Anything',
 			price: 'Free Forever',
-			imageUrl: '',
+			imageUrl: '/products/learnn.png',
 			href: 'https://learnn.cc',
 			isLaunched: false
 		}
